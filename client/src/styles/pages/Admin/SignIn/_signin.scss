@@ -1,0 +1,88 @@
+.sign-in {
+    background-image: url('../../../../assets/img/jpg/background-v1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+    img {
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    &__content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        min-width: 100vh;
+
+        &-logo {
+            padding: 60px 20px;
+        }
+
+        &-tabs {
+            background-color: $background-light;
+    
+            .ant-tabs {
+                width: 90vw;
+                @media (min-width: $media-breakpoint-up-lg) {
+                    width: auto;
+                }
+                // @include breakpointMobileFirst(large) {
+                //     width: auto;
+                // }
+            }
+    
+            .ant-tabs-nav-container {
+                height: 60px !important;
+            }
+    
+            .ant-tabs-nav {
+                width: 100%;
+            }
+    
+            .ant-tabs-tab {
+                border-radius: 0 !important;
+                border-top: 4px solid $border-grey !important;
+                font-size: 0em + 19px / $defaultFontSize;
+                height: 60px !important;
+                margin: 0 !important;
+                text-align: center;
+                width: 50%;
+
+                @media (min-width: $media-breakpoint-up-lg) {
+                    width: 220px;
+                    font-size: 0em + 23px / $defaultFontSize;
+                }
+
+                &:hover {
+                    color: $font-grey-dark;
+                }
+
+                &:before {
+                    content: none;
+                }
+
+                span {
+                    align-items: center;
+                    display: flex;
+                    height: 100%;
+                    justify-content: center;
+                }
+            }
+
+            .ant-tabs-tab-active {
+                border-radius: 0 !important;
+                border-right: 0 !important;
+                border-top: 4px solid $primary-color !important;
+                color: $primary-color !important;
+            }
+
+            .ant-tabs-content {
+                padding: 0 16px 16px 16px;
+                text-align: center;
+            }
+        }
+    }
+}
+

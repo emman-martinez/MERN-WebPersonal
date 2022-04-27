@@ -1,0 +1,15 @@
+.my-info {
+    img {
+        margin-bottom: 20px;
+        width: 200px;
+    }
+
+    h4 {
+        color: $primary-color-dark;
+        margin-bottom: 20px;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+}

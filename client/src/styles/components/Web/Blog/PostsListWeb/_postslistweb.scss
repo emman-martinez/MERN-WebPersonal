@@ -1,0 +1,39 @@
+.blog-pages {
+    .ant-col-md-16 {
+        width: 100%;
+    }
+}
+
+.posts-list-web {
+    margin: 50px 0;
+
+    > h1 {
+        color: $font-light;
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    .post {
+        color: $font-light;
+
+        &__date {
+            align-items: center;
+            background-color: $primary-color;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+            padding: 5px 15px;
+            text-transform: capitalize;
+        }
+
+        .ant-list-item-meta-title {
+            color: $font-light;
+            font-size: 16px;
+
+            &:hover {
+                color: $primary-color-dark;
+            }
+        }
+    }
+}

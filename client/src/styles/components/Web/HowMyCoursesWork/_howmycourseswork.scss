@@ -1,0 +1,67 @@
+.how-my-courses-work {
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+    .ant-col {
+        &.ant-col-lg-16 {
+            width: 100%;
+        } 
+    }
+
+    &__title {
+        line-height: 0.7;
+        margin-bottom: 40px;
+        text-align: center;
+
+        h2 {
+            color: $font-light;
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            color: $primary-color-light;
+            line-height: 1.5;
+        }
+    }
+
+    .row-cards {
+        .ant-col {
+            padding: 15px !important;   
+        }
+    }
+
+    &__card {
+        background-color: $background-dark-light-web;
+        border-radius: 10px;
+        border: 0;
+        box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.75);
+        overflow: hidden;
+        text-align: center;
+        -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.75);
+
+        .ant-card-body {
+            min-height: 215px;
+        }
+
+        i {
+            color: $primary-color-light;
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .ant-card-meta-detail {
+            .ant-card-meta-title {
+                color: $primary-color-light;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .ant-card-meta-description {
+                color: $primary-color-dark;
+            }
+        }
+    }
+}

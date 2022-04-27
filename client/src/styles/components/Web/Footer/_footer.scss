@@ -1,0 +1,33 @@
+.footer {
+    background-color: $background-dark-web;
+    border-top: 3px solid $primary-color;
+
+    &.ant-layout-footer {
+        padding: 0;
+    }
+
+    .ant-col {
+        &.ant-col-lg-16 {
+            padding-top: 10px;
+            width: 100%;
+        }
+    }
+
+    .ant-col {
+        &.ant-col-lg-8 {
+            padding: 0 5px;
+        }
+    }
+
+    &__copyright {
+        margin-top: 30px;
+
+        .ant-col {
+            color: $primary-color-dark;
+
+            &:last-of-type {
+                text-align: right;
+            }
+        }
+    }
+}

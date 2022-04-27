@@ -1,0 +1,63 @@
+.reviews-courses {
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+    .ant-col {
+        &.ant-col-lg-16 {
+            width: 100%;
+        } 
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        text-align: center;
+
+        h2 {
+            color: $font-light;
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }    
+
+    .row-cards {
+        .ant-col {
+            padding: 15px !important;   
+        }
+    }
+
+    &__card {
+        background-color: transparent;
+        border: 0;
+
+        p {
+            color: $primary-color-dark;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .ant-card-meta {
+            align-items: center;
+            display: flex;
+            line-height: 1.5;
+            margin-top: 25px;
+
+            .ant-card-meta-avatar {
+                .ant-avatar {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+
+            .ant-card-meta-detail {
+                .ant-card-meta-title {
+                    color: $primary-color-light;
+                }
+
+                .ant-card-meta-description {
+                    color: $primary-color-dark;
+                }
+            }
+        }
+    }
+}

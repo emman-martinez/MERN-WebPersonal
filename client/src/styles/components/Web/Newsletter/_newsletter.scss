@@ -1,0 +1,18 @@
+.newsletter {
+    position: relative;
+
+    h3 {
+        color: $font-light;
+        font-weight: bold;
+    }
+
+    input {
+        font-size: 15px;
+        height: 45px;
+    }
+
+    button {
+        height: 45px;
+        width: 100%;
+    }
+}

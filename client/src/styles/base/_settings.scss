@@ -1,0 +1,58 @@
+// Font
+$defaultFontSize: 16px;
+// Colors
+$primary-color: #0098D3;
+$primary-color-hover: #0280B3;
+$primary-color-light: #6EC1E4;
+$primary-color-dark: #8698A5;
+
+$menu-color: #252527;
+
+$font-light: #FFFFFF;
+$font-grey-light: #E8E8E8;
+$font-grey: #808080;
+$font-grey-dark: #000000;
+$font-dark-light: 252527;
+$font-dark: #000000;
+
+$border-light: #FFFFFF;
+$border-grey-light: #E8E8E8;
+$border-grey: #808080;
+$border-grey-dark: #595959;
+$border-dark-light: #252527;
+$border-dark: #000000;
+
+$background-light: #FFFFFF;
+$background-grey-light: #E8E8E8;
+$background-grey: #808080;
+$background-grey-dark: #595959;
+$background-dark-light: #252527;
+$background-dark: #000000;
+$background-error: #FF00001F;
+$background-success: #84B84C1F;
+$background-dark-web: #16202B;
+$background-dark-light-web: #1A2734;
+
+$success: #84B84C;
+$error: #F00000;
+$warning: orange;
+
+// Social Color
+$youtube: #CD201F;
+$twitter: #1DA1F2;
+$facebook: #3B5998;
+$linkedin: #0077B5;
+
+// Responsive down size => Desktop-first
+$media-breakpoint-down-xs: 413.98px;
+$media-breakpoint-down-sm: 573.98px;
+$media-breakpoint-down-md: 767.98px;
+$media-breakpoint-down-lg: 991.98px;
+$media-breakpoint-down-xl: 1199.98px;
+
+// Responsive up size => Mobile-first
+$media-breakpoint-up-xs: 320px;
+$media-breakpoint-up-sm: 576px;
+$media-breakpoint-up-md: 768px;
+$media-breakpoint-up-lg: 992px;
+$media-breakpoint-up-xl: 1200px;

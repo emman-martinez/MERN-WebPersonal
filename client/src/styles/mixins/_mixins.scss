@@ -1,0 +1,54 @@
+// Grid
+@mixin breakpointDesktopFirst($breakpoint) {
+    @if $breakpoint == 'small' {
+      @media (max-width: $media-breakpoint-down-xs) {
+        @content;
+      }
+    }
+    @else if $breakpoint == 'small-to-medium' {
+      @media (max-width: $media-breakpoint-down-sm) {
+        @content;
+      }
+    } @else if $breakpoint == 'medium' {
+      @media (max-width: $media-breakpoint-down-md) {
+        @content;
+      }
+    } @else if $breakpoint == 'large' {
+      @media (max-width: $media-breakpoint-down-lg) {
+        @content;
+      }
+    } @else if $breakpoint == 'xlarge' {
+      @media (max-width: $media-breakpoint-down-xl) {
+        @content;
+      }
+    } @else {
+      @error 'No value could be retrieved for DF' + $breakpoint;
+    }
+}
+
+@mixin breakpointMobileFirst($breakpoint) {
+    @if $breakpoint == 'small' {
+      @media (min-width: $media-breakpoint-up-xs) {
+        @content;
+      }
+    }
+    @else if $breakpoint == 'small-to-medium' {
+      @media (min-width: $media-breakpoint-up-sm) {
+        @content;
+      }
+    } @else if $breakpoint == 'medium' {
+      @media (min-width: $media-breakpoint-up-md) {
+        @content;
+      }
+    } @else if $breakpoint == 'large' {
+      @media (min-width: $media-breakpoint-up-lg) {
+        @content;
+      }
+    } @else if $breakpoint == 'xlarge' {
+      @media (min-width: $media-breakpoint-up-xl) {
+        @content;
+      }
+    } @else {
+      @error 'No value could be retrieved for MF' + $breakpoint;
+    }
+}

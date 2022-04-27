@@ -1,0 +1,22 @@
+.presentation {
+    .ant-col-md-16 {
+        width: 100%;
+    }
+}
+
+.presentation-courses {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+
+    img {
+        width: 150px;
+    }
+
+    p {
+        color: $primary-color-dark;
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+}
